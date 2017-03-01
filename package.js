@@ -10,7 +10,6 @@ Package.onUse(function(api) {
   api.versionsFrom('1.4.0.1');
   api.use('huaming:js-xlsx');
   api.use('pfafman:filesaver');
-  api.mainModule('simple-spreadsheet.js', 'client');
   api.addFiles('simple-spreadsheet.js', 'client');
   api.export('SimpleSpreadsheet', 'client');
 });
