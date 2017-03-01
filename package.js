@@ -8,8 +8,8 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.4.0.1');
-  api.use('huaming:js-xlsx');
-  api.use('pfafman:filesaver');
+  api.use('huaming:js-xlsx@0.8.0');
+  api.use('pfafman:filesaver@1.3.2');
   api.addFiles('simple-spreadsheet.js', 'client');
   api.export('SimpleSpreadsheet', 'client');
 });
